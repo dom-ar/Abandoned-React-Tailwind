@@ -4,6 +4,6 @@ This was my first time working with front-end development. I wanted to use the [
 ![Button styles](https://i.imgur.com/bumPvKf.png)
 ![Button styles](https://i.imgur.com/9SCb1zb.gif)
 
-###Website
+### Website
 ![Website](https://i.imgur.com/1KvgXvb.png)
 ![Mobile](https://i.imgur.com/VLW6QLQ.png)
