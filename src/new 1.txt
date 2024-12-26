@@ -1,0 +1,18 @@
+redish
+colors: {
+ 'text': '#070403',
+ 'background': '#fcf8f8',
+ 'primary': '#cc3d33',
+ 'secondary': '#ed8982',
+ 'accent': '#f65a4c',
+},
+
+blueish
+colors: {
+ 'text': '#f1ecfe',
+ 'background': '#070113',
+ 'primary': '#570adb',
+ 'secondary': '#8d0779',
+ 'accent': '#c30972',
+},
+

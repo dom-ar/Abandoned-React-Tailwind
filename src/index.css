@@ -1,0 +1,41 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+    :root {
+        --color-dark: 7 4 3;
+        --color-light: 255 255 255;
+        --color-background: 252 248 249;
+        --color-primary: 204 61 51;
+        --color-secondary: 237 137 130;
+        --color-accent: 246 90 76;
+        --color-brd: 0 0 0;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --color-background: 7 4 3;
+            --color-brd: 255 255 255;
+            --color-text: 255 255 255;
+        }   
+    }
+
+    :root[data-theme='light'] {
+        --color-background: 252 248 249;
+        --color-brd: 0 0 0;
+        --color-text: 7 4 3;
+        --color-obackground: 15 15 15;
+    }
+
+    :root[data-theme='dark'] {
+        --color-background: 15 15 15;
+        --color-brd: 255 255 255;
+        --color-obackground: 252 248 249;
+        /* rgb(11, 19, 17) */
+    }
+
+    button, a {
+        @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-background focus-visible:ring-indigo-500 transition-shadow duration-200;
+    }
+}
